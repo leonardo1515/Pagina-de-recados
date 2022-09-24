@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/messags.css">
+    <title>index</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Mensagems</h1>
+        <hr>
+        <div  class="btns">
+            <button class="save" id="save" onclick="save(res)">Salvar</button>
+            <button class="exit" id="exit" onclick="exit()">Sair</button>
+        </div>
+        <form id="cadform" class="form">
+            <label for="input-mensagem">Mensagem</label>
+            <input type="text" class="mensagem" id="input-mensagem" placeholder="Digite sua Mensagem">
+            <label for="input-descricao">descrição</label>
+            <input type="text" class="descricao" id="input-descricao" placeholder="Digite a descrição">
+            <input type="submit" class="msgBtn" id="submeter" value="Submeter">
+        </form>
+        <div id="erro"></div>
+    </div>
+    <br>
+    <br>
+    <table class="tb">
+        <thead id="cabeca">
+            <tr>
+                <td>mensagem</td>
+                <td>descrição</td>
+                <td>Ação</td>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+    <script src="/js/messags.js"></script>
+</body>
+</html>

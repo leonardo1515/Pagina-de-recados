@@ -1,0 +1,87 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-image: url(/recados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+form{
+    padding-left: 100px;
+    border-collapse: collapse;
+
+}
+
+.btns{
+    position: relative;
+    right: 5px;
+    top: 46px;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    margin-left: 92%;
+}
+.msgBtn:hover{
+    border-color: rgb(86, 86, 229);
+    background-color: rgb(86, 86, 229);
+    color: #fff
+}  
+.save:hover{
+    border-radius: 10%;
+    border-color: #45b145;
+    color: #fff;
+    background-color: #45b145;
+}
+.exit{
+    border: none;
+    color: #fff;
+    background-color: #e33d3d;
+}
+
+.mensagem,.descricao{
+    margin: 5px;
+    width: 500px;
+}
+
+table{
+    margin: auto;
+    width: 85%;
+    border-collapse: collapse;
+
+}
+
+th,td,tr {
+    border: 1px solid black;    
+    border-collapse: collapse;
+}
+
+.delet{
+    position: relative;
+    left: 70px;
+    color: #fff;
+    background-color: #e33d3d;
+}
+.delet:hover{
+    background-color: #d84848;
+    border-color:  #d84848;
+}
+
+.edit{
+    position: relative;
+    left: 90px;
+    color: #fff;
+    background-color:  rgb(86, 86, 229);
+}
+.edit:hover{
+    background-color:  rgb(91, 91, 183);
+    border-color:  rgb(86, 86, 229);
+
+}
+.msgBtn,label,button{
+    cursor: pointer;
+}
