@@ -17,6 +17,10 @@ form{
 
 }
 
+label{
+    color: #0e0a0a;
+}
+
 .btns{
     position: relative;
     right: 5px;
@@ -27,10 +31,18 @@ form{
     margin-left: 92%;
 }
 .msgBtn:hover{
-    border-color: rgb(86, 86, 229);
-    background-color: rgb(86, 86, 229);
-    color: #fff
-}  
+    border-color: #5656e5;
+    background-color: #5656e5;
+    color: #ffffff
+}
+
+.save{
+    border-radius: 10%;
+    border-color: #36ba36;
+    color: #fff;
+    background-color: #36ba36;
+}
+
 .save:hover{
     border-radius: 10%;
     border-color: #45b145;
@@ -38,11 +50,13 @@ form{
     background-color: #45b145;
 }
 .exit{
-    border: none;
     color: #fff;
     background-color: #e33d3d;
 }
-
+.exit:hover{
+    background-color: #d84848;
+    border-color:  #d84848;
+}
 .mensagem,.descricao{
     margin: 5px;
     width: 500px;
@@ -50,13 +64,22 @@ form{
 
 table{
     margin: auto;
-    width: 85%;
+    width: 80%;
     border-collapse: collapse;
 
 }
 
+thead{
+    color: #fff;
+}
+
+tbody{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
 th,td,tr {
-    border: 1px solid black;    
+    border: 2px solid black;    
     border-collapse: collapse;
 }
 
@@ -75,11 +98,11 @@ th,td,tr {
     position: relative;
     left: 90px;
     color: #fff;
-    background-color:  rgb(86, 86, 229);
+    background-color:  #5656e5;
 }
 .edit:hover{
-    background-color:  rgb(91, 91, 183);
-    border-color:  rgb(86, 86, 229);
+    background-color:  #5b5bb7;
+    border-color:  #5656e5;
 
 }
 .msgBtn,label,button{

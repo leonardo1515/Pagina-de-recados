@@ -139,6 +139,7 @@ let edidlinha = (event) =>{
   let newTasks = JSON.parse(localStorage.getItem('task')) || getDefaultTask()
   const sav = document.getElementById('save').hidden = false
   const subm = document.getElementById('submeter').hidden = true
+  const sxi = document.getElementById('exit').hidden = true
 
   const linhaId = event.target.getAttribute('id')
   let idx = dados.data.findIndex((linha) => linha.id == linhaId )
@@ -176,6 +177,7 @@ newTasks.forEach((item) => {
 })
   localStorage.setItem('task', JSON.stringify(newTasks))
   const subm = document.getElementById('submeter').hidden = false
+  const sxi = document.getElementById('exit').hidden = false
 
   messag.value = ''
   desccript.value = ''
