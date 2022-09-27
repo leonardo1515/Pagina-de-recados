@@ -23,7 +23,7 @@ label{
 
 .btns{
     position: relative;
-    right: 5px;
+    right: 40px;
     top: 50px;
     display: flex;
     justify-content: end;
@@ -32,7 +32,7 @@ label{
 }
 
 .msgBtn,.save,.exit{
-    height: 25px;
+    height: 27px;
 
 }
 .msgBtn:hover{
@@ -92,7 +92,7 @@ th,td,tr {
 
 .delet{
     position: relative;
-    left: 70px;
+    left: 30px;
     color: #fff;
     background-color: #e33d3d;
 }
@@ -103,7 +103,7 @@ th,td,tr {
 
 .edit{
     position: relative;
-    left: 90px;
+    left: 50px;
     color: #fff;
     background-color:  #5656e5;
 }

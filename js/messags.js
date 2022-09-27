@@ -38,7 +38,6 @@ function getDefaultTask () {
 
 document.addEventListener('submit', (e) => {
     e.preventDefault()
-    // let newTasks = JSON.parse(localStorage.getItem('task'))
 
     if (!dados) {
         newTasks = getDefaultTask()
@@ -69,6 +68,7 @@ document.addEventListener('submit', (e) => {
 
     messag.value = ''
     desccript.value = ''
+    messag.focus()
     
 })
 
@@ -132,6 +132,8 @@ function deleteLinha (event) {
   })
      localStorage.setItem('task', JSON.stringify(newTasks))
      bodyTable.removeChild(event.target.parentNode.parentNode)
+     messag.focus()
+
 }
 
 let res = 1
@@ -184,6 +186,7 @@ newTasks.forEach((item) => {
 
   location.reload()
   res = 0
+
 }
 
 function exit() {
