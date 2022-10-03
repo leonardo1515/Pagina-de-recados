@@ -155,6 +155,7 @@ let edidlinha = (event) =>{
 
   res = idx
 } 
+
 function save(i) {
   let newTasks = JSON.parse(localStorage.getItem('task')) || getDefaultTask()
 

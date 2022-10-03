@@ -57,6 +57,7 @@ label{
 .exit{
     color: #fff;
     background-color: #e33d3d;
+    border: #e33d3d;
 }
 .exit:hover{
     background-color: #d84848;
@@ -64,7 +65,7 @@ label{
 }
 .mensagem,.descricao{
     margin: 5px;
-    width: 500px;
+    width: 400px;
     height: 20px;
 }
 
@@ -95,6 +96,7 @@ th,td,tr {
     left: 30px;
     color: #fff;
     background-color: #e33d3d;
+    border: #e33d3d;
 }
 .delet:hover{
     background-color: #d84848;
@@ -105,6 +107,7 @@ th,td,tr {
     position: relative;
     left: 50px;
     color: #fff;
+    border: #5656e5;
     background-color:  #5656e5;
 }
 .edit:hover{
